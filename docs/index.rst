@@ -1,9 +1,14 @@
-Moja Dokumentacja
-=================
+========================
+Przykładowa dokumentacja
+========================
 
+Witamy w przykładowej dokumentacji projektu stworzonej z użyciem ReadTheDocs.
+
+Spis treści
+-----------
 .. toctree::
    :maxdepth: 2
-   :caption: Spis treści
+   :caption: Podstrony
 
    skladnia
-   autor
+   o_autorze

@@ -2,7 +2,7 @@
 Przykładowa dokumentacja
 ========================
 
-Witamy w przykładowej dokumentacji projektu stworzonej z użyciem ReadTheDocs.
+Witamy w przykładowej dokumentacji
 
 Spis treści
 -----------
@@ -11,4 +11,4 @@ Spis treści
    :caption: Podstrony
 
    skladnia
-   o_autorze
+Gracjan Jakubowski kl4tp

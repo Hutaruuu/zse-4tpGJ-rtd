@@ -3,31 +3,31 @@ Składnia   dokumentu
 
 Nagłówki
 --------
-Nagłówek poziomu 1
+h1
 ==================
 
-Nagłówek poziomu 2
+h2
 ------------------
 
-Nagłówek  poziomu 3
+h3
 ~~~~~~~~~~~~~~~~~~
 
-Nagłówek poziomu4
+h4
 ^^^^^^^^^^^^^^^^^^
 Obraz
 -----
 .. image:: zdjecie.png
-   :alt: To jest zdjecie
+   :alt:  zdjecie
 Tabela
 ------
-.. table:: Przykładowa tabela
+.. table::  tabela
 
 
 ======== ==========
-Kolumna1 Kolumna2
+Kol1      Kol2
 ======== ==========
-Wartość1 Wartość2
-Wartość3 Wartość4
+1         2
+3         4
 ======== ==========
 
 
@@ -37,50 +37,49 @@ Listy
 Numerowana
 ----------
 
-1. Pierwszy element listy
-2. Drugi element listy
+1. Pierwszy  
+2. Drugi  
 
 Wypunktowana
 ------------
 
-- Pierwsza pozycja
-- Druga pozycja
+- Pierwsza 
+- Druga 
 
 Listy definicji
 ---------------
 
 termin
-    Krótkie objaśnienie danego terminu.
+   termin jakiś
 
 Akapit tekstowy
 ---------------
 
-To jest przykładowy akapit, prezentujący sposób formatowania tekstu.
+Akapit
 
 Akapit informacyjny
 ------------------
 
-.. note:: To jest przykładowa notatka informacyjna.
-.. tip:: Oto przydatna wskazówka.
+.. note::  notatka informacyjna.
+.. tip::  wskazówka.
 
 Fragmenty kodu
 --------------
 
-Liniowy: ``echo("Przykład")``
+Liniowy: ``echo("komunikat")``
 
 Blokowy:
 
 .. code-block:: python
 
-    print("Przykładowy komunikat")
+    print(" komunikat")
 
 Odnośniki
 ---------
 
-Zewnętrzny: `projekt <https://design.cricut.com/>`_
+Zewnętrzny: `circut  <https://design.cricut.com/>`_
+Gracjan Jakubowski kl4tp
 
-Lokalny: :doc:`autor`
 
 
-Lokalny: :doc:`autor`
 

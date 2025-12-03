@@ -31,21 +31,27 @@ Wartość3 Wartość4
 ======== ==========
 
 
-Listy
------
-Numerowana:
-1. Pierwszy element listy
-2. Drugi element listy
+Listy 
+------------------
 
+Numerowana:
+.. code-block:: rst
+
+    1. Pierwszy element listy
+    2. Drugi element listy
 
 Wypunktowana:
-- Pierwsza pozycja
-- Druga pozycja
+.. code-block:: rst
 
+    - Pierwsza pozycja
+    - Druga pozycja
 
 Listy definicji:
-termin
-krótkie objaśnienie danego terminu
+.. code-block:: rst
+
+    termin
+        Krótkie objaśnienie danego terminu.
+
 
 
 Akapit tekstowy

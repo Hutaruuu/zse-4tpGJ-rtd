@@ -16,13 +16,11 @@ Nagłówek poziomu4
 ^^^^^^^^^^^^^^^^^^
 Obraz
 -----
-.. image:: example.png
-   :alt: Tekst  alternatywny
-   :caption: Podpis  obrazka
+.. image:: zdjecie.png
+   :alt: To jest zdjecie
 Tabela
 .. table:: 
-
-======== ========== Kolumna1 Kolumna2 ======== ========== Wartość1 Wartość2 Wartość3 Wartość4 ======== ==========
+======== ========== XDDDD ======== ========== Wartość1 Wartość2 Wartość3 Wartość4 ======== ==========
 
 
 Listy
@@ -50,7 +48,7 @@ Akapit informacyjny
 
 Fragmenty kodu
 --------------
-Liniowy: `` print("Hello World") ``
+Liniowy: `` echo("XDD") ``
 
 Blokowy:
 .. code-block:: python
@@ -59,7 +57,7 @@ Blokowy:
 
 Odnośniki
 ---------
-Zewnętrzny: ` Google <https://www.google.com>`_
+Zewnętrzny: ` circut <https://design.cricut.com/?referrer=https%3A%2F%2Fwww.google.com%2F&visitorId=32c55615-b3b5-4a4b-b0a9-96c1b736709d&deepLinkGuid=20e888bb-0550-466f-9564-c9487221be98>`_
 Lokalny: :doc:` autor`
 
 

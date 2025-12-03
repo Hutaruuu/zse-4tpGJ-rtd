@@ -32,52 +32,52 @@ Wartość3 Wartość4
 
 
 Listy
+=====
 
-Numerowana:
-.. list-table::
-:header-rows: 0
+Numerowana
+----------
 
-Pierwszy element listy
+1. Pierwszy element listy
+2. Drugi element listy
 
-Drugi element listy
+Wypunktowana
+------------
 
-Wypunktowana:
-.. list-table::
-:header-rows: 0
+- Pierwsza pozycja
+- Druga pozycja
 
-Pierwsza pozycja
-
-Druga pozycja
-
-Listy definicji:
-.. list-table::
-:header-rows: 0
+Listy definicji
+---------------
 
 termin
-
-Krótkie objaśnienie danego terminu.
+    Krótkie objaśnienie danego terminu.
 
 Akapit tekstowy
+---------------
 
 To jest przykładowy akapit, prezentujący sposób formatowania tekstu.
 
 Akapit informacyjny
+------------------
 
 .. note:: To jest przykładowa notatka informacyjna.
 .. tip:: Oto przydatna wskazówka.
 
 Fragmenty kodu
+--------------
 
-Liniowy: echo("Przykład")
+Liniowy: ``echo("Przykład")``
 
 Blokowy:
+
 .. code-block:: python
 
-print("Przykładowy komunikat")  
+    print("Przykładowy komunikat")
 
 Odnośniki
+---------
 
-Zewnętrzny: projekt <https://design.cricut.com/>_
+Zewnętrzny: `projekt <https://design.cricut.com/>`_
 
 Lokalny: :doc:`autor`
 

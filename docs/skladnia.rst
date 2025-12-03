@@ -20,45 +20,72 @@ Obraz
    :alt: To jest zdjecie
 Tabela
 ------
-.. table::  tabela
+.. table:: Przykładowa tabela
+
+
 ======== ==========
-Ko1 Kol2
+Kolumna1 Kolumna2
 ======== ==========
-1 2
-3 4
+Wartość1 Wartość2
+Wartość3 Wartość4
 ======== ==========
+
+
 Listy
-=====
-Numerowana
-----------
-1. Pierwsz y ele
-2.    Drugi ele
 
-Wypunktowana
-------------
--  pozycja nr 1
-- pozycja nr 2
-Listy definicji
----------------
+
+Numerowana:
+.. list-table::
+:header-rows: 0
+
+Pierwszy element listy
+
+
+Drugi element listy
+
+
+Wypunktowana:
+.. list-table::
+:header-rows: 0
+
+Pierwsza pozycja
+
+Druga pozycja
+
+Listy definicji:
+.. list-table::
+:header-rows: 0
+
 termin
-    Krótkie objaśnienie danego terminu.
+
+Krótkie objaśnienie danego terminu.
+
 Akapit tekstowy
----------------
-akapit 
- Informacja akapit
-------------------
-.. note::  notatka informacyjna.
-.. tip::  wskazówka.
+
+
+To jest przykładowy akapit, prezentujący sposób formatowania tekstu.
+
+Akapit informacyjny
+
+
+.. note:: To jest przykładowa notatka informacyjna.
+.. tip:: Oto przydatna wskazówka.
+
 Fragmenty kodu
---------------
-Liniowy: ``echo("Przykład")``
+
+
+Liniowy: echo("Przykład")
+
 Blokowy:
+
 .. code-block:: python
-    print("komunikat")
+
+print("Przykładowy komunikat")  
+
 Odnośniki
----------
-Zewnętrzny: `projekt <https://design.cricut.com/>`_
+
+
+Zewnętrzny: projekt <https://design.cricut.com/>_
+
 Lokalny: :doc:`autor`
-
-
 

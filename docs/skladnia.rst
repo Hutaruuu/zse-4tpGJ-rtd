@@ -14,6 +14,30 @@ Nagłówek  poziomu 3
 
 Nagłówek poziomu4
 ^^^^^^^^^^^^^^^^^^
+Obraz
+-----
+.. image:: example.png
+   :alt: Tekst  alternatywny
+   :caption: Podpis  obrazka
+Tabela
+.. table:: 
+
+======== ========== Kolumna1 Kolumna2 ======== ========== Wartość1 Wartość2 Wartość3 Wartość4 ======== ==========
+
+
+Listy
+-----
+Numerowana:
+1. Punkt pierwszy
+ 2. Punkt drugi
+
+Wypunktowana:
+- Punkt pierwszy
+ - Punkt drugi
+
+Listy definicji:
+termin
+    definicja terminu
 
 Akapit tekstowy
 ---------------
@@ -38,31 +62,5 @@ Odnośniki
 Zewnętrzny: ` Google <https://www.google.com>`_
 Lokalny: :doc:` autor`
 
-Listy
------
-Numerowana:
-1. Punkt pierwszy
- 2. Punkt drugi
 
-Wypunktowana:
-- Punkt pierwszy
- - Punkt drugi
 
-Listy definicji:
-termin
-    definicja terminu
-
-Obraz
------
-.. image:: example.png
-   :alt: Tekst  alternatywny
-   :caption: Podpis  obrazka
-
-Tabela
------
-====   =====
-Kol1  Kol2
-====   =====
-A     B
- C     D
-====   =====

@@ -19,46 +19,64 @@ Obraz
 .. image:: zdjecie.png
    :alt: To jest zdjecie
 Tabela
-.. table:: 
-======== ========== XDDDD ======== ========== Wartość1 Wartość2 Wartość3 Wartość4 ======== ==========
+------
+.. table:: Przykładowa tabela
+
+
+======== ==========
+Kolumna1 Kolumna2
+======== ==========
+Wartość1 Wartość2
+Wartość3 Wartość4
+======== ==========
 
 
 Listy
 -----
 Numerowana:
-1. Punkt pierwszy
- 2. Punkt drugi
+1. Pierwszy element listy
+2. Drugi element listy
+
 
 Wypunktowana:
-- Punkt pierwszy
- - Punkt drugi
+- Pierwsza pozycja
+- Druga pozycja
+
 
 Listy definicji:
 termin
-    definicja terminu
+krótkie objaśnienie danego terminu
+
 
 Akapit tekstowy
----------------
- To jest przykładowy  akapit tekstowy.
+----------------
+To jest przykładowy akapit, prezentujący sposób formatowania tekstu.
+
 
 Akapit informacyjny
--------------------
-.. note::To jest notatka informacyjna.
-.. tip::  To jest wskazówka
+--------------------
+.. note:: To jest przykładowa notatka informacyjna.
+.. tip:: Oto przydatna wskazówka.
+
 
 Fragmenty kodu
 --------------
-Liniowy: `` echo("XDD") ``
+Liniowy: `` echo("Przykład") ``
+
 
 Blokowy:
 .. code-block:: python
 
-     print("Hello World")
+
+print("Przykładowy komunikat")
+
 
 Odnośniki
 ---------
-Zewnętrzny: ` circut <https://design.cricut.com/?referrer=https%3A%2F%2Fwww.google.com%2F&visitorId=32c55615-b3b5-4a4b-b0a9-96c1b736709d&deepLinkGuid=20e888bb-0550-466f-9564-c9487221be98>`_
-Lokalny: :doc:` autor`
+Zewnętrzny: projekt <https://design.cricut.com/>
+
+
+Lokalny: :doc:`autor`
 
 
 

@@ -1,5 +1,6 @@
-Składnia   dokumentu
-==================
+=============================
+Składnia dokumentu (przykład)
+=============================
 
 Nagłówki
 --------
@@ -9,80 +10,61 @@ Nagłówek poziomu 1
 Nagłówek poziomu 2
 ------------------
 
-Nagłówek  poziomu 3
+Nagłówek poziomu 3
 ~~~~~~~~~~~~~~~~~~
 
-Nagłówek poziomu4
+Nagłówek poziomu 4
 ^^^^^^^^^^^^^^^^^^
-Obraz
------
-.. image:: zdjecie.png
-   :alt: To jest zdjecie
-Tabela
-------
-.. table:: Przykładowa tabela
-
-
-======== ==========
-Kolumna1 Kolumna2
-======== ==========
-Wartość1 Wartość2
-Wartość3 Wartość4
-======== ==========
-
-
-Listy 
-------------------
-
-Numerowana:
-.. code-block:: rst
-
-    1. Pierwszy element listy
-    2. Drugi element listy
-
-Wypunktowana:
-.. code-block:: rst
-
-    - Pierwsza pozycja
-    - Druga pozycja
-
-Listy definicji:
-.. code-block:: rst
-
-    termin
-        Krótkie objaśnienie danego terminu.
-
-
 
 Akapit tekstowy
-----------------
-To jest przykładowy akapit, prezentujący sposób formatowania tekstu.
-
+---------------
+To jest przykładowy akapit w RST.
 
 Akapit informacyjny
---------------------
-.. note:: To jest przykładowa notatka informacyjna.
-.. tip:: Oto przydatna wskazówka.
-
+-------------------
+.. note:: To jest notatka informacyjna.
+.. tip::  To jest przydatna wskazówka.
 
 Fragmenty kodu
 --------------
-Liniowy: `` echo("Przykład") ``
-
+Liniowy: ``echo("Przykład")``
 
 Blokowy:
 .. code-block:: python
 
-
-print("Przykładowy komunikat")
-
+    print("Przykładowy komunikat")
 
 Odnośniki
 ---------
 Zewnętrzny: projekt <https://design.cricut.com/>
+Lokalny: :doc:`o_autorze`
 
+Listy
+-----
+Numerowana:
+1. Pierwszy element listy
+2. Drugi element listy
 
-Lokalny: :doc:`autor`
+Wypunktowana:
+- Pierwsza pozycja
+- Druga pozycja
 
+Listy definicji:
+termin
+    Krótkie objaśnienie terminu
 
+Obraz
+-----
+.. image:: obrazek.png
+   :alt: Przykładowy obraz
+   :align: center
 
+Tabela
+------
+.. list-table::
+   :header-rows: 1
+
+   * - Kolumna 1
+     - Kolumna 2
+   * - Wartość 1
+     - Wartość 2

@@ -11,4 +11,4 @@ Spis treści
    :caption: Podstrony
 
    skladnia
-Gracjan Jakubowski kl4tp
+   autor
